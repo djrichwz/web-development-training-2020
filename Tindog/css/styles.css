@@ -137,6 +137,11 @@ a{
   color: #fff;
 }
 
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .testimonial-image{
   width: 10%;
   border-radius: 100%;
