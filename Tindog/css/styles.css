@@ -39,6 +39,11 @@ h3{
   font-weight: 900;
   width: 70%;
   margin: 0 auto;
+  line-height: 1.5;
+}
+
+a{
+  color: #212529;
 }
 
 .hero{
@@ -180,4 +185,29 @@ h3{
 
 .cta-button{
   margin: 5% 3% 5% 0;
+}
+
+/* Footer Section */
+
+#footer{
+  background-color: #fff;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.copyright{
+  color: grey;
+  font-family: "Montserrat", san-sans-serif;
+  font-weight: 600;
+
+}
+
+.social-icons{
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-icons li{
+  display: inline;
+  margin: 0 10px 0 10px;
 }
