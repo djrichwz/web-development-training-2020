@@ -12,10 +12,11 @@ body{
 #title{
   background-color: #ff4c68;
   color: #fff;
+  /* padding: 4% 15% 7% 7%; */
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1{
@@ -30,6 +31,14 @@ h2{
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
+}
+
+h3{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .hero{
@@ -66,17 +75,19 @@ h2{
 /* Title Image */
 
 .title-img{
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
-  /* position: absolute; */
-  right: 210px;
-  z-index: 2;
+  position: absolute;
+  right: 30%;
+  /* right: 210px; */
 }
 
 /* Feature Boxes */
 
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box{
@@ -134,4 +145,39 @@ h2{
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* Call To Action */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-button{
+  margin: 5% 3% 5% 0;
 }
