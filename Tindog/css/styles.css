@@ -10,30 +10,14 @@ body{
   text-align: center;
 }
 
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-  /* padding: 4% 15% 7% 7%; */
-}
-
 .container-fluid{
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 h1,h2,h3,h4,h5,h6{
   font-family: "Montserrat",sans-serif;
-  font-weight: bold;
-}
-
-
-/* h3{
-  font-size: 3rem;
   font-weight: 900;
-  width: 70%;
-  margin: 0 auto;
-  line-height: 1.5;
-} */
+}
 
 a{
   color: #212529;
@@ -43,7 +27,7 @@ a{
 
 .big-heading{
   font-family: 'Montserrat', sans-serif;
-  size: 3.5rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
@@ -84,6 +68,19 @@ a{
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+  /* padding: 4% 15% 7% 7%; */
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
 /* Title Image */
 
 .title-img{
@@ -97,7 +94,6 @@ a{
 /* Feature Boxes */
 
 #features{
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -122,14 +118,12 @@ a{
 
 .feature-description{
   color: #8f8f8f;
-  /* width: 15rem; */
   margin: 0 auto;
 }
 
 /* Testimonials */
 
 #testimonials{
-  /* padding: 7% 15%; */
   background-color: #ef8172;
   color: #fff;
 }
@@ -146,7 +140,6 @@ a{
 }
 
 .carousel-item{
-  padding: 7% 15%;
 }
 
 #press{
@@ -190,7 +183,6 @@ a{
 #cta{
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
 }
 
 .cta-button{
