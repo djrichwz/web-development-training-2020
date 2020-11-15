@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
 
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <!-- <div class="top-bubble"></div> -->
+  <div class="wrapper">
 
-  80K
-  Followers
+    <div class="profile-card">
+      <div class="card-header">
+      </div>
+      <div class="card-body">
+        <img class="profile-image" src="images/image-victor.jpg" alt="">
+        <div class="profile-info">
+          <h1 class="profile-title">Victor Crest</h1>
+          <h2 class="age">26</h2>
+          <span class="city">
+            London
+          </span>
+        </div>
 
-  803K
-  Likes
+      </div>
+      <div class="card-footer">
 
-  1.4K
-  Photos
+        <ul class="stats">
+          <li>
+            <span class="stats-text">80K</span><br />
+            <span class="stats-title">Followers</span>
+          </li>
+          <li>
+            <span class="stats-text">803K</span><br />
+          <span class="stats-title">Likes</span>
+          </li>
+          <li>
+            <span class="stats-text">1.4K</span><br />
+            <span class="stats-title">Photos</span>
+          </li>
+        </ul>
+
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- <div class="bottom-bubble"></div> -->
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Richard Wimbridge</a>.
   </div>
 </body>
+
 </html>

@@ -1,0 +1,157 @@
+
+/* font-family: 'Kumbh Sans', sans-serif; */
+
+body{
+  background-color: #1799A4;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  box-sizing:border-box;
+  height: 100%;
+  padding: 30% 7%;
+  position: relative;
+  width: 100%;
+}
+
+.top-bubble{
+  background-image:url("../images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  width: 80%;
+  height: 50%;
+  top: -7rem;
+  left: -7rem;
+}
+
+.bottom-bubble{
+  background-image:url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  width: 80%;
+  height: 50%;
+}
+
+/* Card Styles */
+
+.profile-card{
+  background-color: #fff;
+  border-radius: 1rem;
+  min-height: 25rem;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-image{
+  border: 0.5rem solid #fff;
+  border-radius: 100%;
+  left: 50%;
+  position: absolute;
+  top: -27%;  /* position the top  edge of the element at the middle of the parent */
+  transform: translateX(-50%);
+}
+
+.profile-card .card-header{
+  background-image:url("../images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem 1rem 0 0;
+  min-height: 8rem;
+  width: 100%;
+}
+
+.profile-card .card-body{
+  height:auto;
+  min-height: 8rem;
+  padding: 7% 5%;
+  position: relative;
+}
+
+.profile-card .card-body .profile-info{
+  padding-top: 2rem;
+  position: absolute;
+  width: 90%;
+  bottom:2rem;
+}
+
+.profile-title{
+  display: inline-block;
+  color: #414449;
+  font-size: 1.2rem;
+
+}
+
+.card-body .age{
+  display: inline-block;
+  color: #888888;
+  font-weight:normal;
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+}
+
+.card-body .city{
+  color: #888888;
+  display: block;
+  font-weight:normal;
+  font-size: 1.1rem;
+}
+
+.profile-card .card-footer{
+  border-top: 1px solid #E8E8E8;
+  /* padding: 7% 5%; */
+}
+
+/* Stats section */
+
+.stats{
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 1rem;
+}
+
+.stats li {
+  display: inline-block;
+  color: #414449;
+  padding: 1rem;
+}
+
+.stats-text{
+  display: inline-block;
+  font-weight: bold;
+  font-size:1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.stats-title{
+  color: #888888;
+  display: block;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Media Queries */
+
+@media screen and (min-width: 578px){
+  .wrapper{
+    padding: 30% 20%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .wrapper{
+    padding: 30% 30%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .wrapper{
+    padding: 30% 35%;
+  }
+}
