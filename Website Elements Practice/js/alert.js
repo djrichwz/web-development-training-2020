@@ -1,18 +1,13 @@
-
-
-
 document.querySelector(".alert-dismissible .close").addEventListener("click", function(event){
   var dataToDismiss = this.getAttribute("data-dismiss");
   var parentElement = this.parentElement;
 
-  document.dispatchEvent(new Event("closed.alert"));
+  document.dispatchEvent(new Event("close.alert"));
 
   if(parentElement.classList.contains(dataToDismiss)){
     dismiss(parentElement);
   }
 });
-
-
 
 function dismiss(element){
   if(element.classList.contains("show") && element.classList.contains("fade")){
@@ -20,6 +15,7 @@ function dismiss(element){
 
     setTimeout(function(){
       element.remove();
+      document.dispatchEvent(new Event("closed.alert"));
     }, 200)
   }
   else{
