@@ -8,6 +8,46 @@
   width: 100%;
 }
 
+.alert-primary .alert-link,.alert-primary .alert-link:focus,.alert-primary .alert-link:visited{
+  color: #002752;
+  font-weight: 600;
+}
+
+.alert-secondary .alert-link,.alert-secondary  .alert-link:focus,.alert-secondary  .alert-link:visited{
+  color: #202326;
+  font-weight: 600;
+}
+
+.alert-success .alert-link,.alert-success  .alert-link:focus,.alert-success  .alert-link:visited{
+  color: #0b2e13;
+  font-weight: 600;
+}
+
+.alert-danger .alert-link,.alert-danger .alert-link:focus,.alert-danger  .alert-link:visited{
+  color: #491217;
+  font-weight: 600;
+}
+
+.alert-warning .alert-link,.alert-warning  .alert-link:focus,.alert-warning   .alert-link:visited{
+  color: #533f03;
+  font-weight: 600;
+}
+
+.alert-info .alert-link,.alert-info .alert-link:focus,.alert-info  .alert-link:visited{
+  color: #062c33;
+  font-weight: 600;
+}
+
+.alert-light .alert-link,.alert-light  .alert-link:focus,.alert-light .alert-link:visited{
+  color: #686868;
+  font-weight: 600;
+}
+
+.alert-dark  .alert-link,.alert-dark .alert-link:focus,.alert-dark .alert-link:visited{
+  color: #040505;
+  font-weight: 600;
+}
+
 .alert-primary {
     color: #004085;
     background-color: #cce5ff;
