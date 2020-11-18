@@ -47,6 +47,7 @@ h6{
 
 a{
   text-decoration: none;
+  color: #007bff;
 }
 
 small{
@@ -75,7 +76,7 @@ hr{
 /* Section Styles */
 
 section{
-  min-height: 10rem;
+  /* min-height: 10rem; */
   height: auto;
   margin: 2rem 0;
   width: 100%;

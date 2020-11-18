@@ -1,0 +1,20 @@
+.breadcrumb{
+  background-color: #e9ecef;
+  border-radius: .25rem;
+  list-style:none;
+  padding: .75rem 1rem;
+
+}
+
+.breadcrumb-item{
+    display: inline-block;
+}
+
+.breadcrumb-item.active{
+  color: #6c757d;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+  content: "/";
+  padding: 0.25rem;
+}
