@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,13 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/badges.css">
   <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/alerts.css">
 </head>
+
 <body>
   <h1>Website Elements</h1>
   <main>
+    <!-- Badges Section -->
     <section class="badges">
       <div class="section-title">
         <h2 class="title">Badges</h2>
@@ -20,53 +24,91 @@
         <div class="container">
 
           <div class="content-center">
-            <h2 class="subsection-title">Standard Badge</h2>
+            <h2 id="badges-standard" class="subsection-title">Standard Badge</h2>
             <h1>Example heading <span class="badge badge-secondary">Badge</span></h1>
             <h2>Example heading <span class="badge badge-secondary">Badge</span></h2>
             <h3>Example heading <span class="badge badge-secondary">Badge</span></h3>
             <h4>Example heading <span class="badge badge-secondary">Badge</span></h4>
             <h5>Example heading <span class="badge badge-secondary">Badge</span></h5>
             <h6>Example heading <span class="badge badge-secondary">Badge</span></h6>
-            <h2 class="subsection-title">As part of a button</h2>
+            <h2 id="badges-button" class="subsection-title">As part of a button</h2>
             <button type="button" class="btn btn-primary">Notifications
               <span class="badge badge-light">4</span>
               <!-- use for screen readers <span class="sr-only">unread messages</span> -->
             </button>
-            <h2 class="subsection-title">Badge Color Styles</h2>
-              <span class="badge badge-primary">Primary</span>
-              <span class="badge badge-secondary">Secondary</span>
-              <span class="badge badge-success">Success</span>
-              <span class="badge badge-danger">Danger</span>
-              <span class="badge badge-warning">Warning</span>
-              <span class="badge badge-info">Info</span>
-              <span class="badge badge-light">Light</span>
-              <span class="badge badge-dark">Dark</span>
+            <h2 id="badges-color-styles" class="subsection-title">Badge Color Styles</h2>
+            <span class="badge badge-primary">Primary</span>
+            <span class="badge badge-secondary">Secondary</span>
+            <span class="badge badge-success">Success</span>
+            <span class="badge badge-danger">Danger</span>
+            <span class="badge badge-warning">Warning</span>
+            <span class="badge badge-info">Info</span>
+            <span class="badge badge-light">Light</span>
+            <span class="badge badge-dark">Dark</span>
 
-            <h2 class="subsection-title">Badge Color Pill Style</h2>
-              <span class="badge badge-pill badge-primary">Primary</span>
-              <span class="badge badge-pill badge-secondary">Secondary</span>
-              <span class="badge badge-pill badge-success">Success</span>
-              <span class="badge badge-pill badge-danger">Danger</span>
-              <span class="badge badge-pill badge-warning">Warning</span>
-              <span class="badge badge-pill badge-info">Info</span>
-              <span class="badge badge-pill badge-light">Light</span>
-              <span class="badge badge-pill badge-dark">Dark</span>
-            <h2 class="subsection-title">Badge as link</h2>
-              <a href="#" class="badge badge-primary">Primary</a>
-              <a href="#" class="badge badge-secondary">Secondary</a>
-              <a href="#" class="badge badge-success">Success</a>
-              <a href="#" class="badge badge-danger">Danger</a>
-              <a href="#" class="badge badge-warning">Warning</a>
-              <a href="#" class="badge badge-info">Info</a>
-              <a href="#" class="badge badge-light">Light</a>
-              <a href="#" class="badge badge-dark">Dark</a>
+            <h2 id="badges-pills" class="subsection-title">Badge Color Pill Style</h2>
+            <span class="badge badge-pill badge-primary">Primary</span>
+            <span class="badge badge-pill badge-secondary">Secondary</span>
+            <span class="badge badge-pill badge-success">Success</span>
+            <span class="badge badge-pill badge-danger">Danger</span>
+            <span class="badge badge-pill badge-warning">Warning</span>
+            <span class="badge badge-pill badge-info">Info</span>
+            <span class="badge badge-pill badge-light">Light</span>
+            <span class="badge badge-pill badge-dark">Dark</span>
+            <h2 id="badges-links" class="subsection-title">Badge as link</h2>
+            <a href="#" class="badge badge-primary">Primary</a>
+            <a href="#" class="badge badge-secondary">Secondary</a>
+            <a href="#" class="badge badge-success">Success</a>
+            <a href="#" class="badge badge-danger">Danger</a>
+            <a href="#" class="badge badge-warning">Warning</a>
+            <a href="#" class="badge badge-info">Info</a>
+            <a href="#" class="badge badge-light">Light</a>
+            <a href="#" class="badge badge-dark">Dark</a>
           </div>
 
         </div>
 
       </div>
     </section>
+    <!-- End Badges Section -->
+
+    <!-- Alerts Section -->
+    <section class="alerts">
+      <div class="section-title">
+        <h2 class="title">Alerts</h2>
+      </div>
+      <div class="section-content">
+        <div class="container">
+          <h2 id="alert-standard" class="subsection-title">Standard Alerts</h2>
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            A simple secondary alert—check it out!
+          </div>
+          <div class="alert alert-success" role="alert">
+            A simple success alert—check it out!
+          </div>
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
+          <div class="alert alert-warning" role="alert">
+            A simple warning alert—check it out!
+          </div>
+          <div class="alert alert-info" role="alert">
+            A simple info alert—check it out!
+          </div>
+          <div class="alert alert-light" role="alert">
+            A simple light alert—check it out!
+          </div>
+          <div class="alert alert-dark" role="alert">
+            A simple dark alert—check it out!
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
 </body>
+
 </html>

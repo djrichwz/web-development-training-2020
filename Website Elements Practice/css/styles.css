@@ -63,8 +63,9 @@ h6{
 section{
   min-height: 10rem;
   height: auto;
+  margin: 2rem 0;
   width: 100%;
-  text-align: center;
+
 }
 
 .section-title h2{
@@ -74,16 +75,18 @@ section{
 .section-title{
   background-color: #414449;
   color: #fff;
-  margin-bottom: 2rem;
   padding: 0;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 }
 
 .subsection-title{
   border-bottom: 2px solid #414449;
+  display: table;
+  font-weight: 600;
   margin-bottom: 1rem;
-  width: 100%;
+  width: auto;
 }
 
 .section-content{
