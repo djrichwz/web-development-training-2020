@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,900;1,300;1,700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+h2{
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h3{
+  font-size: 1.75rem;
+  margin: 1rem 0;
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+h5{
+  font-size: 1.25rem;
+}
+
+h6{
+  font-size: 1rem;
+}
+
+
+
+/* Container Styles */
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content-center{
+  margin: 0 auto;
+}
+
+/* Section Styles */
+
+section{
+  min-height: 10rem;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title h2{
+  display: inline-block;
+}
+
+.section-title{
+  background-color: #414449;
+  color: #fff;
+  margin-bottom: 2rem;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.subsection-title{
+  border-bottom: 2px solid #414449;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.section-content{
+    padding: 0.5rem;
+}
+
+/* Badges Section */
+
+.badges{
+  text-align: left;
+}
+
+.badge-container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30%;
+}
+
+@media screen{
+  .sr-only{
+    display: none;
+  }
+}
